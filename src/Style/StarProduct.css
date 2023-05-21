@@ -1,24 +1,21 @@
-
-
-.starProduct{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 1vmax auto;
+.starProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 100vw;
 }
 
-.starProduct >div:last-child{
-    display: flex;
-    flex-wrap: wrap;
-    width: 46%;
+.starProduct > a {
+  text-decoration: none;
+  margin: 1vmax;
+  transition: .5s;
 }
 
+.starProduct > a:hover{
+    box-shadow: 0 0 10px rgb(184, 184, 184);
+  }
 
-
-.starProduct img:hover{
-    box-shadow: 6px 6px 15px rgba(53, 53, 53, 0.363);
-}
-
-.starProduct img{
-    transition: 0.5s;
+.starProduct > a > img {
+  width: 30vmax;
 }

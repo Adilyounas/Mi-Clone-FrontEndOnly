@@ -1,7 +1,7 @@
 .videos{
     display: flex;
-    width: 90vw;
+   max-width: 100vw;
     justify-content: center;
     align-items: center;
-    margin: auto;
+    flex-wrap: wrap;
 }
